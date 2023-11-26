@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001121] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001217] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.098200] (-) TimerEvent: {}
+[0.200204] (-) TimerEvent: {}
+[0.213100] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.214302] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/sami/dev_ws/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sami/dev_ws/src/my_bot/install/my_bot'], 'cwd': '/home/sami/dev_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('SSH_CLIENT', '192.168.4.22 57075 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami/dev_ws/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/sami/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8872c057-7610-4be4-aa0a-3a63278b932e'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sami/dev_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.22 57075 192.168.4.57 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.300789] (-) TimerEvent: {}
+[0.401792] (-) TimerEvent: {}
+[0.502827] (-) TimerEvent: {}
+[0.604693] (-) TimerEvent: {}
+[0.705926] (-) TimerEvent: {}
+[0.806496] (-) TimerEvent: {}
+[0.852321] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.906793] (-) TimerEvent: {}
+[1.007638] (-) TimerEvent: {}
+[1.108838] (-) TimerEvent: {}
+[1.211627] (-) TimerEvent: {}
+[1.312600] (-) TimerEvent: {}
+[1.397458] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.413052] (-) TimerEvent: {}
+[1.443979] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.513611] (-) TimerEvent: {}
+[1.614986] (-) TimerEvent: {}
+[1.684234] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.701307] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.704053] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.709114] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.715417] (-) TimerEvent: {}
+[1.721736] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.815866] (-) TimerEvent: {}
+[1.916890] (-) TimerEvent: {}
+[1.975563] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.000562] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.000884] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.001076] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.013567] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.017308] (-) TimerEvent: {}
+[2.118054] (-) TimerEvent: {}
+[2.219275] (-) TimerEvent: {}
+[2.321168] (-) TimerEvent: {}
+[2.422182] (-) TimerEvent: {}
+[2.451799] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.523285] (-) TimerEvent: {}
+[2.624165] (-) TimerEvent: {}
+[2.669246] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.724678] (-) TimerEvent: {}
+[2.827237] (-) TimerEvent: {}
+[2.844998] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.927984] (-) TimerEvent: {}
+[3.029716] (-) TimerEvent: {}
+[3.073535] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.087735] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.088267] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.088583] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.104057] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.104352] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.107949] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.115508] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.120147] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.130649] (-) TimerEvent: {}
+[3.135433] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.135685] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.139827] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.144521] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.151583] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.154811] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/sami/dev_ws/src/my_bot/build/my_bot\n'}
+[3.167578] (my_bot) CommandEnded: {'returncode': 0}
+[3.168570] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[3.168794] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sami/dev_ws/src/my_bot/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/sami/dev_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('SSH_CLIENT', '192.168.4.22 57075 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami/dev_ws/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/sami/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8872c057-7610-4be4-aa0a-3a63278b932e'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sami/dev_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.22 57075 192.168.4.57 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[3.231910] (-) TimerEvent: {}
+[3.308577] (my_bot) CommandEnded: {'returncode': 0}
+[3.332492] (-) TimerEvent: {}
+[3.433783] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[3.433875] (-) TimerEvent: {}
+[3.456643] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sami/dev_ws/src/my_bot/build/my_bot'], 'cwd': '/home/sami/dev_ws/src/my_bot/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sami'), ('SSH_CLIENT', '192.168.4.22 57075 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sami'), ('OLDPWD', '/home/sami/dev_ws/src'), ('SSH_TTY', '/dev/pts/5'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator29dc8adce6160aa71083b29ec48bed94c'), ('COLCON_PREFIX_PATH', '/home/sami/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sami'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8872c057-7610-4be4-aa0a-3a63278b932e'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sami/dev_ws/src/my_bot/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.22 57075 192.168.4.57 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sami/dev_ws/install/my_package:/home/sami/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[3.485372] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.487836] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.488645] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[3.508520] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[3.534397] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[3.534986] (-) TimerEvent: {}
+[3.568181] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[3.591937] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[3.613610] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[3.631941] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[3.635391] (-) TimerEvent: {}
+[3.657309] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[3.687371] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[3.708378] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[3.735865] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[3.736217] (-) TimerEvent: {}
+[3.760237] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[3.782060] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[3.808206] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[3.831554] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[3.836988] (-) TimerEvent: {}
+[3.861145] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[3.883499] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[3.905014] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[3.925886] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[3.940539] (-) TimerEvent: {}
+[3.959621] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[3.981390] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[4.008525] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[4.027655] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[4.041420] (-) TimerEvent: {}
+[4.050786] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml\n'}
+[4.087297] (my_bot) CommandEnded: {'returncode': 0}
+[4.142016] (-) TimerEvent: {}
+[4.243454] (-) TimerEvent: {}
+[4.350606] (-) TimerEvent: {}
+[4.452314] (-) TimerEvent: {}
+[4.534915] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[4.537147] (-) EventReactorShutdown: {}
