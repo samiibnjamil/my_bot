@@ -13,9 +13,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 git status
 git add .
 git status
-git commit -m "Your commit message here"
-
-git push -u origin master
+git commit -m "Your commit message here($(date))"
+git push -u origin main
 
 
 
