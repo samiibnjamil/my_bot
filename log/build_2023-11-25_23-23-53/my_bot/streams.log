@@ -1,0 +1,49 @@
+[0.143s] Invoking command in '/home/sami/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sami/dev_ws/src/my_bot/build/my_bot -- -j4 -l4
+[0.269s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.793s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.005s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.058s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.058s] -- Configured cppcheck include dirs: 
+[1.059s] -- Configured cppcheck exclude dirs and/or files: 
+[1.116s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.116s] -- Configured cpplint exclude dirs and/or files: 
+[1.125s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.137s] -- Added test 'lint_cmake' to check CMake code style
+[1.148s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.202s] -- Added test 'uncrustify' to check C / C++ code style
+[1.203s] -- Configured uncrustify additional arguments: 
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.226s] -- Configuring done
+[1.244s] -- Generating done
+[1.252s] -- Build files have been written to: /home/sami/dev_ws/src/my_bot/build/my_bot
+[1.318s] Invoked command in '/home/sami/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sami/dev_ws/src/my_bot/build/my_bot -- -j4 -l4
+[1.457s] Invoking command in '/home/sami/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sami/dev_ws/src/my_bot/build/my_bot
+[1.489s] -- Install configuration: ""
+[1.490s] -- Execute custom install script
+[1.496s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.496s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.496s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.497s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.497s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.497s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.497s] -- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/testControl
+[1.520s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.520s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.520s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.521s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.522s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.523s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.523s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.524s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.525s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.526s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.526s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.527s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.527s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.528s] -- Symlinking: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.550s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.551s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.551s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.551s] -- Up-to-date symlink: /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[1.559s] Invoked command in '/home/sami/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sami/dev_ws/src/my_bot/build/my_bot

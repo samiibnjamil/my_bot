@@ -4,6 +4,7 @@
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/testControl
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/sami/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
