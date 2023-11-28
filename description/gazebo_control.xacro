@@ -2,35 +2,36 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <gazebo>
-        <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
-            <updateRate>10.0</updateRate>
-            <robotNamespace>/my_bot</robotNamespace>
-            <leftFrontJoint>left_front_wheel_joint</leftFrontJoint>
-            <rightFrontJoint>right_front_wheel_joint</rightFrontJoint>
-            <leftRearJoint>left_rear_wheel_joint</leftRearJoint>
-            <rightRearJoint>right_rear_wheel_joint</rightRearJoint>
-            <wheelSeparation>0.4</wheelSeparation>
-            <wheelDiameter>0.2</wheelDiameter>
-            <robotBaseFrame>base_link</robotBaseFrame>
-            <torque>10</torque>
+        <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+    
+        <num_wheel_pairs>2</num_wheel_pairs>
+            <!-- Wheel Information -->
+        <left_joint>left_front_wheel_joint</left_joint>
+        <left_joint>left_rear_wheel_joint</left_joint>
 
-            <topicName>cmd_vel</topicName>
-            <odometryTopic>odom</odometryTopic>
-            <odometryFrame>odom</odometryFrame>
+        <!-- Right Wheel Joints -->
+        <right_joint>right_front_wheel_joint</right_joint>
+        <right_joint>right_rear_wheel_joint</right_joint>
 
-            <commandTopic>cmd_vel</commandTopic>
-            <topic_name_twist>cmd_vel</topic_name_twist>
-            <topic_name_odometry>odom</topic_name_odometry>
-            <topic_name_joint>joint</topic_name_joint>
+        <!-- Wheel Separation and Diameter -->
+        <wheel_separation>0.2</wheel_separation> <!-- Adjust as needed -->
+        <wheel_diameter>0.07</wheel_diameter> <!-- Adjust as needed -->
 
-            <broadcastTF>true</broadcastTF>
+        <!-- Wheel Torque and Acceleration Limits -->
+        <max_wheel_torque>20</max_wheel_torque>
+        <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
-            <covariance_x>0.0001</covariance_x>
-            <covariance_y>0.0001</covariance_y>
-            <covariance_yaw>0.01</covariance_yaw>
+        <!-- Odometry and Transform Frames -->
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
 
+        <!-- Additional Options -->
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+        <publish_wheel_tf>true</publish_wheel_tf>
+    
         </plugin>
-     </gazebo>
+    </gazebo>
 
 
 </robot>
